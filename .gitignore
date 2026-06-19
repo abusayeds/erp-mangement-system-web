@@ -39,3 +39,14 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Laravel source reference (local junction, not part of this repo)
+/laravel
+
+# Node.js backend reference (local junction, not part of this repo)
+/backend
+
+# Local editor / agent config (never push)
+.cursor/
+AGENTS.md
+CLAUDE.md
